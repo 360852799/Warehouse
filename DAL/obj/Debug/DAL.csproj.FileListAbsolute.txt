@@ -1,0 +1,8 @@
+D:\Warehouse\DAL\bin\Debug\DAL.dll.config
+D:\Warehouse\DAL\bin\Debug\DAL.dll
+D:\Warehouse\DAL\bin\Debug\DAL.pdb
+D:\Warehouse\DAL\bin\Debug\Model.dll
+D:\Warehouse\DAL\bin\Debug\Model.pdb
+D:\Warehouse\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Warehouse\DAL\obj\Debug\DAL.dll
+D:\Warehouse\DAL\obj\Debug\DAL.pdb

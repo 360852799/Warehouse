@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.AmountDAO" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAIACMAAAQAA=</HashCode>
+      <FileName>AmountDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.BatchDao" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEBAABABAAAAAAAAQAAAAAAAAIAAAAAQA=</HashCode>
+      <FileName>BatchDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.ChestDAO" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQAAAgAAAAAAAAAAAAAABAAAAAAAAAAAABAACA=</HashCode>
+      <FileName>ChestDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.DataCopyDAO" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABABAAAAAAQAAAAACCAAAAAAQAAAAACQAAAAAE=</HashCode>
+      <FileName>DataCopyDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.DepartmentDAO" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAQAAAAQgCAAAA=</HashCode>
+      <FileName>DepartmentDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.GoodsDAO" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAgAAAAIAAAAgAAAAAAAAACAAABAUA=</HashCode>
+      <FileName>GoodsDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.GoodsTypeDAO" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIQAQAAAAAAAAAAAIAgAAgAAAAAAAgAAAAAEAA=</HashCode>
+      <FileName>GoodsTypeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.IninDAO" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAACAAIEAQAAAAAAAUQEAAACAQAAACAAIAAAAEAA=</HashCode>
+      <FileName>IninDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.NoticeDAO" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAUAAAAAAAAAAAAAAAAAEAAAAAAACAABAAAAA=</HashCode>
+      <FileName>NoticeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.OutoutDAO" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAIAAAKAAAEAAISCAAAAABAgAAiBEAAA=</HashCode>
+      <FileName>OutoutDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.PositionDAO" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAACQAAABAAACQAAA=</HashCode>
+      <FileName>PositionDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.ProviderDAO" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEgAAAAAAAAAAAAAAACAAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>ProviderDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.ReceiverDAO" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAAAAAAAAABAgAAAAAgAAAAAAAAAAAIACAEA=</HashCode>
+      <FileName>ReceiverDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.RoomDAO" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEoAAAAIAAEAQAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>RoomDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.StaffDAO" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAEgAAACAAAIAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.SysLogDAO" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAACAgAAAABAA=</HashCode>
+      <FileName>SysLogDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.SysUserDAO" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAYABAAAgQAAACAAAAAAAAAAAAAEAIAAAAAA=</HashCode>
+      <FileName>SysUserDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.DBTools" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAAABAAAAAAAQAAAEAAAABACAAAAA=</HashCode>
+      <FileName>DBTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.PositionTypeDAO">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABJAAAAAEAAAAAAAAAAAAAAAAAAAAABACAAA=</HashCode>
+      <FileName>PositionTypeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

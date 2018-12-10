@@ -1,0 +1,9 @@
+D:\Warehouse\Warehouse\bin\Warehouse.dll
+D:\Warehouse\Warehouse\bin\Warehouse.pdb
+D:\Warehouse\Warehouse\bin\DAL.dll
+D:\Warehouse\Warehouse\bin\Model.dll
+D:\Warehouse\Warehouse\bin\DAL.pdb
+D:\Warehouse\Warehouse\bin\Model.pdb
+D:\Warehouse\Warehouse\obj\Debug\Warehouse.csprojResolveAssemblyReference.cache
+D:\Warehouse\Warehouse\obj\Debug\Warehouse.dll
+D:\Warehouse\Warehouse\obj\Debug\Warehouse.pdb

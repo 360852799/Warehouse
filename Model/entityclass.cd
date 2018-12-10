@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="在Batch中，当入库时Provider为空，当出库时receiver为空、">
+    <Position X="13.392" Y="3.309" Height="0.658" Width="1.7" />
+  </Comment>
+  <Class Name="Model.Department" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAABAAAAAQAAAAAAAAAAAEAAAAAgAAAABAAAAEAAA=</HashCode>
+      <FileName>Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Notice" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAQAEQEUAAAIABAACAAQEAEQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Notice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.staff" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAACAAAAAwAgQEEAIBgAAgAQaAIAAGgA=</HashCode>
+      <FileName>staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SysUser" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAIAoAACACAAACgAAAAoAAAAA=</HashCode>
+      <FileName>SysUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Provider" Collapsed="true">
+    <Position X="3.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAARBAAAEQAQAACAAAAEgAAAFAAQAAAAAAAAAQAAE=</HashCode>
+      <FileName>Provider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Receiver" Collapsed="true">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAABEQAQUQCAAFAAgAAAEAAQAAAAAIAAAACAA=</HashCode>
+      <FileName>Receiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Chest" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAABAGAAAAEAAQAAAAAAAAAAIAEAASAAAAEAEAABARA=</HashCode>
+      <FileName>Chest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Room" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAABACAAAAGAAQAAgAAAAAAAIAEAASAAAAAAABAAAQA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Goods" Collapsed="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAgAAAAIEAAAABABAAAIhQAYCoQAkCIAAIAgAAQ=</HashCode>
+      <FileName>Goods.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GoodsType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.Position" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABACAAAAEAAQAAAAAAAAAAIAEAASAAgAKAEIACgRA=</HashCode>
+      <FileName>Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.PositionType" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAAAQAQEAABEBAAAQAAAAAAACAAAAAgQA=</HashCode>
+      <FileName>PositionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.GoodsType" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABIACAAAEAAQAQAAAAAAAAAAEIAQAgAIAAAAAAARA=</HashCode>
+      <FileName>GoodsType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Batch" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhIQAAISEAAAAAAAAAAAEAAAEBAAABAAAAAAAAAA=</HashCode>
+      <FileName>Batch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Provider" />
+      <Property Name="Receiver" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.Outout" Collapsed="true">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABABAAAAAQAAAgCAAAIAwEgAAEBIABAAIAIQECASA=</HashCode>
+      <FileName>Outout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Inin" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABABAAAAAQAAAgCAAAIAgEgIAABICBAgIAIQMCASA=</HashCode>
+      <FileName>Inin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.DataCopy" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIBIAQAIQQECCAEAAgQAAAAEAAAIAAAACAAAAACA=</HashCode>
+      <FileName>DataCopy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.SysLog" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAAAAQAIAECADAAAgAQAAQEAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SysLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Amount" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEgAAAAIAAAAQABAAAAAQAAIAAAACA=</HashCode>
+      <FileName>Amount.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Goods" />
+      <Property Name="Position" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,26 @@
+﻿
+* {
+    margin: 0;
+    padding:0;
+}
+
+/*单独改变PlaceHolder的字体和颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 15px;
+    color: black;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 15px;
+    color: black;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 15px;
+    color: black;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 15px;
+    color: black;
+}

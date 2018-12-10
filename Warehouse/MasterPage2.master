@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="float: left; width: 190px">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource2" ImageSet="Arrows" Visible="false" Style="margin-left: 20px; line-height: 25px">
+                <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                <NodeStyle Font-Names="Tahoma" Font-Size="12pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" VerticalPadding="0px" />
+                <ParentNodeStyle Font-Bold="False" />
+                <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" SiteMapProvider="site2" />
+        </div>
+        <div class="div_title" style="width: 1100px; position: absolute; left: 200px">
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="Image/title_backgroundcolor.jpg" CssClass="picture_title" />
+            <asp:Label ID="Label1" runat="server" Text="核工业理化工程研究院" Style="font-family: SimHei; font-size: 30px; position: absolute; top: 50px; left: 140px; line-height: 10px;"></asp:Label>
+        </div>
+        <div class="footer1">
+                <a>
+                    <br />
+                    京ICP备？？？？？？？？| 网站地图<br />
+                    <br />
+                    Copyright 2017 核工业理化工程研究院<br />
+                    <br />
+                    地址：天津????</a>
+            </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

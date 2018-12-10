@@ -1,0 +1,194 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPage" CodeBehind="MasterPage.master.cs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        function X1() {
+            window.location.href = "管理库位.aspx";
+        }
+        function X2() {
+            window.location.href = "物品信息管理.aspx";
+        }
+        function X3() {
+            window.location.href = "管理部门.aspx";
+        }
+        function X4() {
+            window.location.href = "部门人员管理.aspx";
+        }
+        function X5() {
+            window.location.href = "供应商管理.aspx";
+        }
+        function X6() {
+            window.location.href = "收货商管理.aspx";
+        }
+        function X7() {
+            window.location.href = "登记入库.aspx";
+        }
+        function X8() {
+            window.location.href = "出库登记.aspx";
+        }
+        function X9() {
+            window.location.href = "未完成出入库.aspx";
+        }
+        function X10() {
+            window.location.href = "物资盘点.aspx";
+        }
+        function X11() {
+            window.location.href = "库存控制.aspx";
+        }
+        function X12() {
+            window.location.href = "图形化显示.aspx";
+        }
+        function X13() {
+            window.location.href = "出入库汇总.aspx";
+        }
+        function X14() {
+            window.location.href = "在库汇总.aspx";
+        }
+        function X15() {
+            window.location.href = "出库日报.aspx";
+        }
+        function X16() {
+            window.location.href = "入库日报.aspx";
+        }
+        function X17() {
+            window.location.href = "用户管理.aspx";
+        }
+        function X18() {
+            window.location.href = "数据备份.aspx";
+        }
+        function X19() {
+            window.location.href = "数据恢复.aspx";
+        }
+        function X20() {
+            window.location.href = "系统日志.aspx";
+        }
+        function X21() {
+            window.location.href = "登录.aspx";
+        }
+        function X22() {
+            window.location.href = "注册.aspx";
+        }
+    </script>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="width: 1100px; position: absolute; left: 200px">
+            <div class="div_title">
+                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="Image/title_backgroundcolor.jpg" CssClass="picture_title" />
+                <asp:Label ID="Label1" runat="server" Text="核工业理化工程研究院" CssClass="title_text"></asp:Label>
+            </div>
+            <div class="master_welcome">
+                <table>
+                    <tr>
+                        <td>
+                            <asp:Label ID="Label2" CssClass="label2_style" runat="server" Text="<span>欢迎您,</span><span runat='server' class='span_style' id='span1' >用户名</span></span><span>!</span>"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Button ID="Button1" runat="server" Text="退出" Width="40px" CssClass="button_exit" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="master_meal">
+                <div class="master_title1">
+                    <asp:Label ID="Label3" runat="server" Text="基础信息管理" Style="font-size: 19px;"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label4" runat="server" Text="库位管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label5" runat="server" Text="物品信息管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label6" runat="server" Text="部门管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label7" runat="server" Text="部门人员管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label8" runat="server" Text="供应商管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label9" runat="server" Text="收货商管理" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title3">
+                    <asp:Label ID="Label10" runat="server" Text="物品出入库" Style="font-size: 19px;"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label11" runat="server" Text="入库登记" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label12" runat="server" Text="出库登记" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label13" runat="server" Text="未完成出库" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+
+                <div class="master_title3">
+                    <asp:Label ID="Label14" runat="server" Text="库存管理" Style="font-size: 19px;"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label15" runat="server" Text="物资盘点" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label16" runat="server" Text="库存控制" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label17" runat="server" Text="图形化展示" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title3">
+                    <asp:Label ID="Label24" runat="server" Text="统计报表" Style="font-size: 19px;"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label25" runat="server" Text="出入库汇总" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label26" runat="server" Text="在库汇总" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label27" runat="server" Text="出库日报" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label28" runat="server" Text="入库日报" Style="font-size: 19px; float: right; margin-right: 0px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title3">
+                    <asp:Label ID="Label18" runat="server" Text="系统管理" Style="font-size: 19px;"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label19" runat="server" Text="用户管理" Style="font-size: 19px; float: right; margin-right: 1px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label20" runat="server" Text="数据备份" Style="font-size: 19px; float: right; margin-right: 1px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label21" runat="server" Text="数据恢复" Style="font-size: 19px; float: right; margin-right: 1px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title2">
+                    <asp:Label ID="Label22" runat="server" Text="系统日志" Style="font-size: 19px; float: right; margin-right: 1px;cursor:pointer"></asp:Label>
+                </div>
+                <div class="master_title3">
+                    <asp:Label ID="Label23" runat="server" Text="权限管理" Style="font-size: 19px;"></asp:Label>
+                </div>
+            </div>
+            <br />
+            <div class="footer1">
+                <a>
+                    <br />
+                    京ICP备？？？？？？？？| 网站地图<br />
+                    <br />
+                    Copyright 2017 核工业理化工程研究院<br />
+                    <br />
+                    地址：天津????</a>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

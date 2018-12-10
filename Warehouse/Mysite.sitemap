@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="主页.aspx" title="主页"  description="">
+    <siteMapNode url="" title="基础信息管理"  description="">
+      <siteMapNode url="管理库位.aspx" title="库位管理"  description="" />
+      <siteMapNode url="物品信息管理.aspx" title="物品信息管理"  description="" />
+      <siteMapNode url="管理部门.aspx" title="部门管理"  description="" />
+      <siteMapNode url="部门人员管理.aspx" title="部门人员管理"  description="" />
+      <siteMapNode url="供应商管理.aspx" title="供应商管理"  description="" />
+      <siteMapNode url="收货商管理.aspx" title="收货商管理"  description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

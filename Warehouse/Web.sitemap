@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="主页.aspx" title="主页"  description="">
+    <siteMapNode url="" title="基础信息管理"  description="">
+      <siteMapNode url="管理库位.aspx" title="库位管理"  description="" />
+      <siteMapNode url="物品信息管理.aspx" title="物品信息管理"  description="" />
+      <siteMapNode url="管理部门.aspx" title="部门管理"  description="" />
+      <siteMapNode url="部门人员管理.aspx" title="部门人员管理"  description="" />
+      <siteMapNode url="供应商管理.aspx" title="供应商管理"  description="" />
+      <siteMapNode url="收货商管理.aspx" title="收货商管理"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="物品出入库"  description="" >
+      <siteMapNode url="登记入库.aspx" title="入库登记"  description="" />
+      <siteMapNode url="出库登记.aspx" title="出库登记"  description="" />
+      <siteMapNode url="未完成出库.aspx" title="未完成出库"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="库存管理"  description="" >
+      <siteMapNode url="物资盘点.aspx" title="物资盘点"  description="" />
+      <siteMapNode url="库存控制.aspx" title="库存控制"  description="" />
+      <siteMapNode url="图形化显示.aspx" title="图形化展示"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="统计报表"  description="" >
+      <siteMapNode url="出入库汇总.aspx" title="出入库汇总"  description="" />
+      <siteMapNode url="在库汇总.aspx" title="在库汇总"  description="" />
+      <siteMapNode url="出库日报.aspx" title="出库日报"  description="" />
+      <siteMapNode url="入库日报.aspx" title="入库日报"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="系统管理"  description=""  >
+      <siteMapNode url="用户管理.aspx" title="用户管理"  description="" />
+      <siteMapNode url="数据备份.aspx" title="数据备份"  description="" />
+      <siteMapNode url="数据恢复.aspx" title="数据恢复"  description="" />
+      <siteMapNode url="系统日志.aspx" title="系统日志"  description="" />
+    </siteMapNode>
+    <siteMapNode url="登录.aspx" title="登录"  description="" />
+    <siteMapNode url="注册.aspx" title="注册"  description="" />
+  </siteMapNode>
+</siteMap>

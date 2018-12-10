@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warehouse", "Warehouse\Warehouse.csproj", "{B2542B0B-6F21-40F1-A12A-1DD9BC17D1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{CC4A6035-3852-40D1-9084-3803AF10E6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{DC1391C1-3353-4A8A-87F6-0DECF3D40511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{073BE38D-983E-4167-890B-2CF805F2342A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://softwarehouse2018.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Model\\Model.csproj
+		SccProjectName1 = Model
+		SccLocalPath1 = Model
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = Warehouse\\Warehouse.csproj
+		SccProjectName3 = Warehouse
+		SccLocalPath3 = Warehouse
+		SccProjectUniqueName4 = BLL\\BLL.csproj
+		SccProjectName4 = BLL
+		SccLocalPath4 = BLL
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2542B0B-6F21-40F1-A12A-1DD9BC17D1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2542B0B-6F21-40F1-A12A-1DD9BC17D1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2542B0B-6F21-40F1-A12A-1DD9BC17D1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2542B0B-6F21-40F1-A12A-1DD9BC17D1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4A6035-3852-40D1-9084-3803AF10E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4A6035-3852-40D1-9084-3803AF10E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4A6035-3852-40D1-9084-3803AF10E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4A6035-3852-40D1-9084-3803AF10E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1391C1-3353-4A8A-87F6-0DECF3D40511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1391C1-3353-4A8A-87F6-0DECF3D40511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1391C1-3353-4A8A-87F6-0DECF3D40511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1391C1-3353-4A8A-87F6-0DECF3D40511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073BE38D-983E-4167-890B-2CF805F2342A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073BE38D-983E-4167-890B-2CF805F2342A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073BE38D-983E-4167-890B-2CF805F2342A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073BE38D-983E-4167-890B-2CF805F2342A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

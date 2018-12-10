@@ -1,0 +1,33 @@
+在登陆成功之后存储两个Session
+第一个：名字是UserName，存储的是登陆的系统管理员的StaffName
+第二个：名字是UserId，存储的是登陆的系统管理员的UserId
+
+
+绑定数据源字段
+		BoundField bf1 = new BoundField(); bf1.HeaderText = "序号";
+        BoundField bf2 = new BoundField();bf2.DataField = "UserId"; bf2.HeaderText = "账号";
+        BoundField bf3 = new BoundField();bf3.DataField = "IpAddress"; bf3.HeaderText = "IP地址";
+        BoundField bf4 = new BoundField();bf4.DataField = "ActionTime"; bf4.HeaderText = "操作时间";
+        BoundField bf5 = new BoundField();bf5.DataField = "Column"; bf5.HeaderText = "栏目";
+        BoundField bf6 = new BoundField();bf6.DataField = "ActionType"; bf6.HeaderText = "操作类型";
+
+        GridView1.Columns.Add(bf1);
+        GridView1.Columns.Add(bf2);
+        GridView1.Columns.Add(bf3);
+        GridView1.Columns.Add(bf4);
+        GridView1.Columns.Add(bf5);
+        GridView1.Columns.Add(bf6);
+
+
+
+room添加一个可用面积字段，存放该房间内的库柜的最大可用面积
+room添加一个高度字段，表示这个房间的可存放库柜的最大高度
+
+chest添加一个可用面积字段，存放该库柜内的库位的最大可用面积
+chest添加一个高度字段，表示这个库柜的可存库位的最大高度
+
+position增加一个可用面积和高度，便于物体存放时的计算
+
+物品入库时，应存放在不同规格的容器中，如箱子，烧杯，小盒子
+物品的总体积必须小于容器的体积，如果物品存放不下，则增加一个容器表。
+容器放在库位中，如果库位中容器放不下，则选择其他的库位

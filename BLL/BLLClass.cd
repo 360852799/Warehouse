@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.SysUserBLL" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYABAAAgQAAAAAAAAAAAAAAAAAEAIAAAAAA=</HashCode>
+      <FileName>SysUserBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SysLogBLL" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAIAAAAQAAgAIACAAAAAAAACAgAAAABAA=</HashCode>
+      <FileName>SysLogBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.StaffBLL" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAABEQAAAEgAAACAAAAAAAAICAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaffBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.RoomBLL" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGoAAAAAAAEAQAAAAAAAAEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>RoomBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ReceiverBLL" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAgAAAAAgAAAAAAAAAAAIACAEA=</HashCode>
+      <FileName>ReceiverBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ProviderBLL" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEgAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ProviderBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.PositionBLL" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAACQAAABAAACQAAA=</HashCode>
+      <FileName>PositionBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.OutoutBLL" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAIAAAIAAAAAAIAAAAAAABAAAACAAAAA=</HashCode>
+      <FileName>OutoutBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.NoticeBLL" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAUAAAAAAAAAAAAAAAAAEAAAAAAACAABAAAAA=</HashCode>
+      <FileName>NoticeBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.IninBLL" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAQAAAAAAQAAACAAIAAAAEAA=</HashCode>
+      <FileName>IninBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.GoodsTypeBLL" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAQAAAAAAAAAAAIAACAgAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>GoodsTypeBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.GoodsBLL" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAAAAgAAAAAAAAACAAABAUA=</HashCode>
+      <FileName>GoodsBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DepartmentBLL" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAEAAAAAAIAQAAAAQgCAAAA=</HashCode>
+      <FileName>DepartmentBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.BatchBLL" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEBAABABAAAAAAAAQAAAAAAAAIAAAAAQA=</HashCode>
+      <FileName>BatchBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DataCopyBLL" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAQAAAAACCAAAAAAQAAAAAAQAAAAAE=</HashCode>
+      <FileName>DataCopyBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ChestBLL" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAQAAAgAAAAAAAAAAAAAABAAAAAAAAAAAABAACA=</HashCode>
+      <FileName>ChestBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.AmountBLL" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAIACAAAAQAA=</HashCode>
+      <FileName>AmountBLL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
